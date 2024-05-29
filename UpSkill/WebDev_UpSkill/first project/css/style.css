@@ -1,0 +1,8 @@
+header{ /* Header back ground */
+    background-color: silver;
+}
+
+h1.header{ /* Header style*/
+    color: pink;
+    font-style: oblique;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UpSkill</title>
+    <!-- Define the style -->
+    <style> 
+        div{
+            border: 1px solid red;            
+        }
+        span{
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Menu Table</h1>
+    <table border="1" cellpadding="20" cellspacing="5"> <!-- Table create --> <!-- bgcolor use for color the table,rows and columns--> 
+        <!-- cellpadding make space in table and cellspacing make space external-->
+        <thead> <!-- Head of table -->
+            <th>id</th>
+            <th>Image</th>
+            <th>Menu</th>
+            <th>Costs</th>
+            <th>Order</th>
+        </thead>
+        <tbody align="center"><!-- Body of table--> <!-- Change position texts and image by align attribute-->
+            <tr bgcolor="green">
+                <td>N001</td>
+                <td><img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/1c0c434c-9802-4556-89c7-a8600b2828d8/%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%9C%E0%B8%B9%E0%B9%89-air-jordan-1-low-6Q1tFM.png" alt=""
+                    width="100px" height="100px"></td> <!-- Table column -->
+                <td>Nike Air Jordan</td>
+                <td>฿4,300</td>
+                <td bgcolor="pink" rowspan="4"><a href="#">Purchase</a></td> <!-- Combine the rows by rowspan attribut -->
+            </tr> <!-- Table rows -->
+            <tr bgcolor="yellow">
+                <td>N002</td>
+                <td><img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3f3e7049-5c99-428c-abcd-e246b086f2ed/%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%9C%E0%B8%B9%E0%B9%89-air-force-1-07-VWCc04.png" 
+                    alt="" width="100px" height="100px"></td>
+                <td>Nike Air Force 1</td>
+                <td>฿4,300</td>
+            </tr>
+            <tr bgcolor="orange">
+                <td>N003</td>
+                <td><img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/af53d53d-561f-450a-a483-70a7ceee380f/%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%9C%E0%B8%B9%E0%B9%89-dunk-low-r8QXCd.png" 
+                    alt="" width="100px" height="100px"></td>
+                <td>Nike Dunk low</td>
+                <td>฿3,700</td>
+            </tr>
+            <tr bgcolor="red">
+                <td>N004</td>
+                <td><img src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d975cae3-9659-43a1-b330-84cec15a9955/%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B9%88%E0%B8%87%E0%B9%82%E0%B8%A3%E0%B9%89%E0%B8%94%E0%B8%A3%E0%B8%B1%E0%B8%99%E0%B8%99%E0%B8%B4%E0%B9%88%E0%B8%87%E0%B8%9C%E0%B8%B9%E0%B9%89-pegasus-40-3JpHzl.png" 
+                    alt="" width="100px" height="100px"></td>
+                <td>Nike Pegasus 40</td>
+                <td>฿5,200</td>
+            </tr>
+        </tbody>
+        <tfoot> <!-- Bottom of table-->
+            <tr>
+                <td colspan="5" align="right"><b>Your costs : ฿17,500</b></td><!-- colspan attributes is attribute that combine the column-->
+            </tr>
+        </tfoot>
+    </table>
+
+    <span style="color: red"> <!-- Group of text -->
+        <h1>HTML5 Tutorial</h1>
+        <p>Sirawit Bunnam</p>
+    </span>
+    <span style="color: blue">      
+        <h1>HTML5 Tutorial</h1>
+        <p>Sirawit Bunnam</p>
+    </span>
+    <div style="color: greenyellow;">
+        <h1>HTML5 Tutorial</h1>
+        <p>Sirawit Bunnam</p>
+    </div>
+    <div style="color: gold;"> <!-- Group of text that make the next line up -->
+        <h1>HTML5 Tutorial</h1>
+        <p>Sirawit Bunnam</p>
+    </div>
+    <!-- They look like they are the same but they aren't the same the same -->
+    <!-- For Example -->
+    <span>Zentryx</span>
+    <span>Zentryx</span>
+    <span>Zentryx,</span>
+    <span>they are span</span>
+    <div>Zentryx</div>
+    <div>Zentryx</div>
+    <div>Zentryx</div>
+    <div>They are div</div>
+</body>
+</html>
