@@ -1,3 +1,4 @@
+
 let x;
 
 const todo = new Object();
@@ -44,7 +45,5 @@ x = Object.values(todo);
 x = Object.entries(todo);
 
 x = todo.hasOwnProperty('name');
-
-
 
 console.log(x);
